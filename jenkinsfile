@@ -2,7 +2,7 @@
 
 pipeline {
     environment {
-        GIT_URL = "https://github.com/JeongJaeHa/project-test.git"
+        GIT_URL = "https://github.com/jihwan2843/django.git"
         registry = "jihwan2843/jenkins"
         dockerImage = ""
         dockerhub = "https://hub.docker.com/repository/docker/jihwan2843/jenkins/general"
