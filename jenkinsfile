@@ -1,10 +1,10 @@
 pipeline {
     environment {
         GIT_URL = "https://github.com/jihwan2843/django.git"
-        registry = "jihwan2843/jenkins"
+        registry = "jihwan2843/jenkins_test"
         dockerImage = ""
-        dockerhub = "https://hub.docker.com/repository/docker/jihwan2843/jenkins/general"
-        dockerhub_credentials = "Dockerhub"
+        dockerhub = "https://hub.docker.com/repository/docker/jihwan2843/jenkins_test/general"
+        dockerhub_credentials = "jenkins_dockerhub"
     }
     
     agent any
